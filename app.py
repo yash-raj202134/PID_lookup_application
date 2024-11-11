@@ -4,7 +4,7 @@ import os
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Required for flash messages
+app.secret_key = 'your_secret_key_here' 
 
 # Configure upload folder
 UPLOAD_FOLDER = 'uploads'
